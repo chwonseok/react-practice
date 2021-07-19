@@ -1,9 +1,13 @@
-function App() {
+import React from 'react';
+
+import Review from './components/Review';
+
+const App = () => {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <>
+      <Review />
+    </>
   );
-}
+};
 
 export default App;
